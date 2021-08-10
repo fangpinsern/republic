@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Overview
 
 The venue booking system is split into 4 key parts:
@@ -22,3 +26,7 @@ A **booking** is the physical booking slot of the venue. A booking is only creat
 ## Recurring Bookings
 
 A **recurring booking** is a booking that happens consistently. Currently we only support weekly recurrences.
+
+## NOTE
+
+This system currently uses numbered time slots rather than actual time. So time slot 1 would corresponds to a certain time of day. This would help us in reducing the chances to messing with timezones. However, it makes the application highly localized to a certain region.
